@@ -1,0 +1,42 @@
+.aboutPage {
+
+  // justify-content: center;
+  align-items: center;
+  gap: 12em;
+  animation: expand .2s ease forwards;
+
+  &__content {
+    text-align: left;
+    padding-left: 4rem;
+    line-height: 1.6em;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__download {
+      display: inline-block;
+      padding: 0.5em 1em;
+      line-height: 1.5em;
+      background-color: #a5a58d;
+      border: solid 5px #a5a58d;
+      text-align: center;
+    }
+  }
+
+  &__skills{
+    // background-color: #a5a58d;
+    // width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    // height:400px !important;
+    border: 1px solid #a5a58d;
+    padding: 2em 1em;
+    height: 100%;
+  }
+  
+
+}

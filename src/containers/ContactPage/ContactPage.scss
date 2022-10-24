@@ -1,0 +1,44 @@
+.contactPage{
+  animation: expand .2s ease forwards;
+
+  &__main{
+    display: flex;
+    gap: 12em;
+  }
+}
+
+.otherContact__each{
+  display: flex;
+  gap: 2em;
+}
+
+
+.fill {
+
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+  gap: 24px;
+  justify-content: start;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.fill:after {    
+  background: none repeat scroll 0 0 transparent;
+  // bottom: 0;
+  content: "";
+  // display: block;
+  height: 2px;
+  // left: 50%;
+  // position: absolute;
+  background: #e9c46a;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.fill:hover:after { 
+  width: 100px; 
+  left: 0; 
+}

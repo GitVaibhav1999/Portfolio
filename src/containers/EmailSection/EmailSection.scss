@@ -1,0 +1,21 @@
+@import "../../../sass/variables.scss";
+
+.emailSection{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1em;
+  text-align: left;
+  padding-left: 4em;
+  // align-items: flex-start;
+
+  &__send{
+    background-color: #e9c46a;
+    padding: 0.5em 1em;
+    color: $secondaryColor;
+    display: inline;
+    width: fit-content;
+  }
+  
+}
+
