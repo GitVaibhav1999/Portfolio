@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className={`App theme__${theme}`}>
-      <div className="paperOverlay"></div>
+      {/* <div className="paperOverlay"></div> */}
       <BrowserRouter>
         <NavigationRoutes />
         <NavigatorStrip />
