@@ -2,6 +2,7 @@ import React from "react";
 import { DownlaodIcon } from "../../components/DownlaodIcon";
 import { NavigateHead } from "../../components/NavigateHead/NavigateHead";
 import { OpenNewTab } from "../../components/OpenNewTab";
+import { RESUME_DOWNLOAD_LINK, RESUME_LINK } from "../../Constants";
 
 import "./AboutPage.scss";
 
@@ -21,6 +22,16 @@ export const AboutPage = () => {
     },
   ];
 
+  const handleResume = (action) => {
+    if(action === 'open'){
+      window.open(RESUME_LINK,'_blank')
+    }
+    if(action === 'download'){
+      window.open(RESUME_DOWNLOAD_LINK,'_self')
+
+    }
+  }
+
   return (
     <div className="aboutPage flex">
       <section>
@@ -39,8 +50,12 @@ export const AboutPage = () => {
           </span>
           <span className="aboutPage__content__download font-m bold">
             <span>Resume</span>
-            <span className="icon cursor-pointer"><DownlaodIcon /></span>
-            <span className="icon cursor-pointer"><OpenNewTab /></span>
+            <span onClick={()=>handleResume('download')} className="icon cursor-pointer">
+              <DownlaodIcon />
+            </span>
+            <span onClick={()=>handleResume('open')}  className="icon cursor-pointer">
+              <OpenNewTab />
+            </span>
           </span>
         </div>
       </section>

@@ -56,3 +56,6 @@ export const pages = [
   'experience',
   'blog'
 ]
+
+export const RESUME_LINK = "https://drive.google.com/file/d/1rJkf9bW9gm5wxVFtb2j9IZ3V8Zm3WQrX/view?usp=sharing"
+export const RESUME_DOWNLOAD_LINK = "https://drive.google.com/uc?export=download&id=1rJkf9bW9gm5wxVFtb2j9IZ3V8Zm3WQrX"
