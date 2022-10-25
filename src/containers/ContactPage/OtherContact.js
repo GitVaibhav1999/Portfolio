@@ -3,7 +3,6 @@ import { GithubIcon } from "../../components/ContactIcons/GithubIcon";
 import { InstagramIcon } from "../../components/ContactIcons/InstagramIcon";
 import { Leetcode } from "../../components/ContactIcons/Leetcode";
 import { LinkedinIcon } from "../../components/ContactIcons/LinkedinIcon";
-import { DownlaodIcon } from "../../components/DownlaodIcon";
 import { Stickman } from "../../components/Stickman";
 
 export const OtherContact = () => {
@@ -24,10 +23,7 @@ export const OtherContact = () => {
       name: "leetcode",
       icon: <Leetcode fill="grey" />,
     },
-    {
-      name: 'resume',
-      icon: <DownlaodIcon />
-    }
+    
   ];
 
   return (
