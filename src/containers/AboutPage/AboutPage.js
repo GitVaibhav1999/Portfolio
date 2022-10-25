@@ -1,6 +1,7 @@
 import React from "react";
 import { DownlaodIcon } from "../../components/DownlaodIcon";
 import { NavigateHead } from "../../components/NavigateHead/NavigateHead";
+import { OpenNewTab } from "../../components/OpenNewTab";
 
 import "./AboutPage.scss";
 
@@ -36,9 +37,10 @@ export const AboutPage = () => {
             I am always open to explore new technologies and domains. <br />
             and always curious about improving code quality and scalability
           </span>
-          <span className="aboutPage__content__download bold font-l cursor-pointer">
+          <span className="aboutPage__content__download font-m bold">
             <span>Resume</span>
-            <span><DownlaodIcon /></span>
+            <span className="icon cursor-pointer"><DownlaodIcon /></span>
+            <span className="icon cursor-pointer"><OpenNewTab /></span>
           </span>
         </div>
       </section>

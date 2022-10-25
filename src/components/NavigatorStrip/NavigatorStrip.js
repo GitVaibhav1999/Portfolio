@@ -36,7 +36,7 @@ export const NavigatorStrip = () => {
 
   return (
     <Fragment>
-      <div className="NavigatorStrip">
+    <div className="NavigatorStrip">
       <OtherContact />
 
         {config.map(({ title, color }) => (
@@ -47,8 +47,8 @@ export const NavigatorStrip = () => {
             className={`NavigatorStrip__child  ${
               isSelected(title) && "selected"
             }`}
-          >
-            <div className="title_container font-m bold">
+        >
+            <div className="title_container font-m">
               {title}
             </div>
           </Link>

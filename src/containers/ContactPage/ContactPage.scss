@@ -37,6 +37,8 @@
 
   a{
     svg{
+      transition: 0.2s ease-in-out;
+
       &:hover{
         fill: $flexColor !important;
       }

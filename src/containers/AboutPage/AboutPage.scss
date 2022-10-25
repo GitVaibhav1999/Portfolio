@@ -1,7 +1,6 @@
 @import "../../../sass/variables.scss";
 
 .aboutPage {
-
   align-items: center;
   gap: 12em;
 
@@ -29,11 +28,21 @@
       background-color: $flexColor;
       border-radius: 4px;
       text-align: center;
-      font-size: 1em;
+
+      .icon {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
     }
   }
 
-  &__skills{
+  &__skills {
     // background-color: #a5a58d;
     // width: 400px;
     display: flex;
@@ -44,6 +53,4 @@
     padding: 2em 1em;
     height: 100%;
   }
-  
-
 }
