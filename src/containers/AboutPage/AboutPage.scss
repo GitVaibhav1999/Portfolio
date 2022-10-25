@@ -1,9 +1,9 @@
+@import "../../../sass/variables.scss";
+
 .aboutPage {
 
-  // justify-content: center;
   align-items: center;
   gap: 12em;
-  animation: expand .2s ease forwards;
 
   &__content {
     text-align: left;
@@ -17,12 +17,18 @@
     align-items: flex-start;
 
     &__download {
-      display: inline-block;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
       padding: 0.5em 1em;
+      justify-content: center;
       line-height: 1.5em;
-      background-color: #a5a58d;
-      border: solid 5px #a5a58d;
+      color: $secondaryColor;
+      // background-color: $flexColor;
+      background-color: $flexColor;
+      border-radius: 4px;
       text-align: center;
+      font-size: 1em;
     }
   }
 

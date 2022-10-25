@@ -4,8 +4,8 @@ export const Leetcode = ({fill}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="32px"
-      height="32px"
+      height='1.5rem'
+      width={'auto'}
       viewBox="0 0 24 24"
       role="img"
       fill={fill}

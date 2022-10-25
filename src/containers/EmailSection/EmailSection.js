@@ -6,10 +6,10 @@ import "./EmailSection.scss";
 export const EmailSection = () => {
   return (
     <div className="emailSection">
-      <CustomInput borderColor={"#e9c46a"} placeHolder="Name" />
-      <CustomInput borderColor={"#e9c46a"} placeHolder="Email" />
+      <CustomInput borderColor={"#FE5A43"} placeHolder="Name" />
+      <CustomInput borderColor={"#FE5A43"} placeHolder="Email" />
       <CustomInput
-        borderColor={"#e9c46a"}
+        borderColor={"#FE5A43"}
         extraClass="text-box"
         placeHolder="Write here ..."
       />

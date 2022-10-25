@@ -8,6 +8,7 @@ import "./NavigatorStrip.scss";
 import { useKeyStroke } from "../../Hooks/useKeyStroke";
 import { PressKey } from "../PressKey/PressKey";
 import { SpaceIcon } from "../SpaceIcon";
+import { OtherContact } from "../../containers/ContactPage/OtherContact";
 
 export const NavigatorStrip = () => {
   const search = useHref();
@@ -36,30 +37,23 @@ export const NavigatorStrip = () => {
   return (
     <Fragment>
       <div className="NavigatorStrip">
+      <OtherContact />
+
         {config.map(({ title, color }) => (
           <Link
             key={title}
             to={`/${isSelected(title) ? "" : title}`}
-            style={{ backgroundColor: color }}
+            // style={{ backgroundColor: color }}s
             className={`NavigatorStrip__child  ${
               isSelected(title) && "selected"
             }`}
           >
-            <div className="title_container hand-written bold font-l">
+            <div className="title_container font-m bold">
               {title}
             </div>
           </Link>
         ))}
       </div>
-      {!!(search === "/") && (
-        <div className="navigationKeys">
-          <PressKey title={"Press space to navigate"} keyIcon={<SpaceIcon />} />
-          <PressKey
-            title={"Press Esc. to home page"}
-            keyIcon={<span className="bold font-ss">Esc</span>}
-          />
-        </div>
-      )}
     </Fragment>
   );
 };

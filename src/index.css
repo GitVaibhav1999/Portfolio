@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
 body {
   margin: 0;
@@ -30,19 +31,19 @@ code {
 }
 
 .font-l{
-  font-size: 2vh;
+  font-size: 1.25vmax;
 }
 
 .font-m{
-  font-size: 18px;
+  font-size: 1vmax;
 }
 
 .font-s{
-  font-size: 16px;
+  font-size: 0.5vmax;
 }
 
 .font-ss{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .flex{
@@ -52,7 +53,7 @@ code {
 .big-banner{
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 6vmin;
+  font-size: 6vmax;
 }
 
 .hand-written{
@@ -82,4 +83,8 @@ input:focus{
 
 .italic{
   font-style: italic;
+}
+
+.flex-text{
+  color: #FE5A43;
 }

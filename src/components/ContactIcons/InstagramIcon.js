@@ -3,8 +3,8 @@ import React from "react";
 export const InstagramIcon = ({fill}) => {
   return (
     <svg
-      height={32}
-      width={32}
+    height='1.5rem'
+    width={'auto'}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       version="1.1"

@@ -3,31 +3,31 @@ export const config = [
   {
     title: "About",
     size: "big",
-    color: "#a5a58d",
+    color: "#FE5A43",
     border: "#6b2eab",
     url: "./Alpha.svg"
   },
-  {
-    title: "Contacts",
-    size: "medium",
-    border: "#3bb570",
-    color: '#e9c46a',
-    url: "./Cute.svg"
-  },
+  // {
+  //   title: "Contacts",
+  //   size: "medium",
+  //   border: "#3bb570",
+  //   color: '#FE5A43',
+  //   url: "./Cute.svg"
+  // },
   {
     title: "Experience",
     size: "small",
     border: "#3b50bf",
-    color: '#e76f51',
+    color: '#FE5A43',
     url: "./Extra.svg"
   },
-  {
-    title: "Blogs",
-    size: "small",
-    color: "#2a9d8f",
-    border: '#f0ac2d',
-    url: "./Beta.svg"
-  },
+  // {
+  //   title: "Blogs",
+  //   size: "small",
+  //   color: "#FE5A43",
+  //   border: '#f0ac2d',
+  //   url: "./Beta.svg"
+  // },
 
   // {
   //   title: "D",

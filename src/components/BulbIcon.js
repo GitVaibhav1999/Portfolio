@@ -3,7 +3,7 @@ import React from "react";
 export const BulbIcon = ({ isOn }) => {
   return (
     <svg
-      fill={isOn && "#fdb813"}
+      fill={isOn && "#FE5A43"}
       xmlns="http://www.w3.org/2000/svg"
       height="24"
       width="24"
