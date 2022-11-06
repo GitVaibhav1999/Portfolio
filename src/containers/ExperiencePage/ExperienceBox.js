@@ -2,7 +2,7 @@ import React from "react";
 
 export const ExperienceBox = ({ data }) => {
   const { duration, company, title } = data;
-  // debugger
+
   return (
     <div className="experienceBox flex text-left">
       <span className="experienceBox__divider">

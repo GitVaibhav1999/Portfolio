@@ -1,13 +1,10 @@
 import React, { Fragment } from "react";
 
 import { Link, useHref, useNavigate } from "react-router-dom";
-import { HomeIcon } from "../HomeIcon";
 import { config, keyCodes } from "../../Constants";
 
 import "./NavigatorStrip.scss";
 import { useKeyStroke } from "../../Hooks/useKeyStroke";
-import { PressKey } from "../PressKey/PressKey";
-import { SpaceIcon } from "../SpaceIcon";
 import { OtherContact } from "../../containers/ContactPage/OtherContact";
 
 export const NavigatorStrip = () => {
