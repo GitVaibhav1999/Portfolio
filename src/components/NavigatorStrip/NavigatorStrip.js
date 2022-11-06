@@ -45,7 +45,7 @@ export const NavigatorStrip = () => {
               isSelected(title) && "selected"
             }`}
         >
-            <div className="title_container font-m">
+            <div className="title_container font-s">
               {title}
             </div>
           </Link>

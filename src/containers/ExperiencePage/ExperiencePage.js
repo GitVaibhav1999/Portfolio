@@ -16,7 +16,6 @@ export const ExperiencePage = () => {
             <ExperienceBox key={obj.id} data={obj} />
           ))}
         </div>
-        <div className="experiencePage__detail"></div>
       </div>
     </>
   );

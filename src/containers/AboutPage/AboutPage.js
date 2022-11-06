@@ -48,7 +48,7 @@ export const AboutPage = () => {
             I am always open to explore new technologies and domains. <br />
             and always curious about improving code quality and scalability
           </span>
-          <span className="aboutPage__content__download font-m bold">
+          <span className="aboutPage__content__download font-s bold">
             <span>Resume</span>
             <span onClick={()=>handleResume('download')} className="icon cursor-pointer">
               <DownlaodIcon />

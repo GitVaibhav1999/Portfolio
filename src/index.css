@@ -35,11 +35,11 @@ code {
 }
 
 .font-m{
-  font-size: 1vmax;
+  font-size: 1.5em;
 }
 
 .font-s{
-  font-size: 0.5vmax;
+  font-size: 1em;
 }
 
 .font-ss{
@@ -92,4 +92,8 @@ input:focus{
 
 .text-left{
   text-align: left;
+}
+
+.text-grey{
+  color: grey;
 }
