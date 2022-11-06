@@ -1,0 +1,14 @@
+.experiencePage{
+    font-family: Montserrat;
+    justify-content: center;
+
+    &__overview{
+        gap: 6em;
+    }
+}
+
+.experienceBox{
+    span{
+        margin-bottom: 6px;
+    }
+}
