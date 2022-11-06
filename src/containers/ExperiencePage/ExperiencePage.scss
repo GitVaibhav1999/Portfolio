@@ -1,14 +1,51 @@
-.experiencePage{
-    font-family: Montserrat;
-    justify-content: center;
+.experiencePage {
+  font-family: Montserrat;
+  justify-content: center;
 
-    &__overview{
-        gap: 6em;
-    }
+  &__overview {
+      .experienceBox:last-of-type {
+        &__divider {
+          &__line {
+            background-color: red !important;
+            height: 10px !important;
+          }
+        }
+      }
+  }
 }
 
-.experienceBox{
-    span{
-        margin-bottom: 6px;
+.experienceBox {
+  gap: 3em;
+
+  &__divider:last-of-type{
+    background-color: red !important;
+  }
+  &__divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__circle {
+      border: 1px solid grey;
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
     }
+
+    &__line {
+      border: 1px solid grey;
+      height: 12em;
+      height: 12em;
+      width: 1px;
+      background-color: grey;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      border-radius: 50%;
+    }
+  }
+
+  &__content {
+    span {
+      margin-bottom: 6px;
+    }
+  }
 }
